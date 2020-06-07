@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <h1>Aplicação News API</h1>
+        <h1>JR News</h1>
     </div>
 </template>
 
