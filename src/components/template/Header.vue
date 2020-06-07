@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <h1>JR News</h1>
+        <h1>Noticias do Dia </h1>
     </div>
 </template>
 
