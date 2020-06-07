@@ -1,8 +1,8 @@
 <template>
     <div class="logo" @click="$router.push({name: 'news'})">
         <div class="news-api-logo">
-            News
-            <span class="news-api-title">API</span>
+            JR
+            <span class="news-api-title">News</span>
         </div>
     </div>
 </template>
