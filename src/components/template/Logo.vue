@@ -2,8 +2,8 @@
     <div class="logo">
         <i @click="toggleMenu" class="fa fa-bars drawer-button"></i>
         <div class="news-api-logo"  @click="$router.push({name: 'news'})">
-            News
-            <span class="news-api-title">API</span>
+            JR
+            <span class="news-api-title">NEWS</span>
         </div>
     </div>
 </template>
