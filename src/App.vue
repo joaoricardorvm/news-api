@@ -33,24 +33,23 @@ export default {
 	.app{
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-
+		
 		height: 100vh;
 		display: grid;
 		grid-template-rows: 80px 1fr;
-		grid-template-columns: 300px 1fr 225px;
+		grid-template-columns: 275px 1fr;
 		grid-template-areas: 
-			"logo header header"
-			"content content menu"
+			"logo header"
+			"menu content"
 		;
 	}
 
 	@media(max-width: 980px){
 		.app{
-			grid-template-rows: 80px 50px 1fr;
-			grid-template-columns: 300px 1fr;
+			grid-template-rows: 80px 1fr;
+			grid-template-columns: 275px 1fr;
 			grid-template-areas: 
 				"logo header"
-				"menu menu"
 				"content content"
 			;
 		}
@@ -58,7 +57,7 @@ export default {
 
 	@media(max-width: 700px){
 		.app{
-			grid-template-columns: 100px 1fr;
+			grid-template-columns: 150px 1fr;
 		}
 	}
 </style>

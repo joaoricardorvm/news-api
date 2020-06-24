@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <h1>Noticias do Dia </h1>
+        <h1>Aplicação News API</h1>
     </div>
 </template>
 
