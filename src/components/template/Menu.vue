@@ -25,10 +25,10 @@
         <div class="menu-categories">
             <span>Categorias</span>
             <ul>
-                <li @click="changeSection('globo', 'Globo', 1)">Seção 1</li>
-                <li @click="changeSection('abc-news', 'ABC News', 2)">Seção 2</li>
-                <li @click="changeSection('bbc-sport', 'BBC Sport', 3)">Seção 3</li>
-                <li @click="changeSection('axios', 'Axios', 4)">Seção 4</li>
+                <li @click="changeSection('globo', 'Globo', 1)">Globo</li>
+                <li @click="changeSection('abc-news', 'ABC News', 2)">ABC News</li>
+                <li @click="changeSection('bbc-sport', 'BBC Sport', 3)">BBC Sport</li>
+                <li @click="changeSection('axios', 'Axios', 4)">Axios</li>
             </ul>
         </div>
     </div>
